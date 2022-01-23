@@ -1,6 +1,5 @@
 This automation script is build on Java With Selenium using Maven Project with TestNG framework, here is the steps to run the automation script.
 
-
 1. This script works on Chrome version 97 (Kindly update your browser if it has older version)
 2. Install Java
     2.1. Visit https://www.oracle.com/java/technologies/downloads/#java8-windows
