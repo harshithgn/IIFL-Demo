@@ -18,3 +18,5 @@ This automation script is build on Java With Selenium using Maven Project with T
 5. Open the Project in IntelliJ
 6. Expand and Right-Click on testNG.xml
 7. Click on "Run"
+8. Once the execution is completed, navigate to reports folder in the project structure and open the latest folder which is created
+9. Open the .html file for the report
