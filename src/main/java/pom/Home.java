@@ -2,6 +2,7 @@ package pom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utlilities.Reports;
 
 public class Home {
 
@@ -15,5 +16,6 @@ public class Home {
 
     public void navigateToHealthCard() {
         driver.findElement(getProtected).click();
+        Reports.validationTest.info("Clicked on Get Protected in the Home Page");
     }
 }

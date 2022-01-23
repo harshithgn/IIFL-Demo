@@ -2,17 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Running Upload Files to Eventhub Suite" parallel="tests" thread-count="5">
 
-    <parameter name="envName" value="engg-az-qa7"/>
-    <parameter name="tenantID" value="rdwengg-az-qa7"/>
-    <parameter name="jsonFilePath"
-               value="C:\Users\harshithgn\Downloads\test.json"/>
-    <parameter name="awsRegionName" value="us-east-1"></parameter>
-    <parameter name="streamName" value="hebds-syndication"></parameter>
-    <parameter name="awsAccessKey" value="AKIAYN7WLF2RG3BIT7LA"></parameter>
-    <parameter name="awsSecretKey" value="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"></parameter>
     <test verbose="1" name="Running Upload Files to Eventhub Suite">
         <classes>
-            <class name="toolshub.integration.UploadFilesToKinesis"/>
+            <class name="iifl.IIFLDemo"/>
         </classes>
     </test>
 </suite>
